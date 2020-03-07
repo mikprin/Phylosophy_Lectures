@@ -1,0 +1,71 @@
+% "Станет проще"
+
+\documentclass[a4paper,12pt]{article} % тип документа
+\usepackage{cmap}
+% report, book
+
+%  Русский язык
+
+\usepackage[T2B]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage{graphicx}
+\usepackage[english,russian]{babel}	% локализация и переносы
+
+
+%отступ
+\usepackage[left=3cm,right=3cm,
+    top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
+
+% Математика
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} 
+\usepackage{csvsimple}
+\usepackage{multirow}
+
+\usepackage{hyperref}
+\usepackage{wasysym}
+\usepackage{subcaption}
+\usepackage{verbatim}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{rotating}
+
+%Заговолок
+%\graphicspath{ {images/} }
+
+
+\begin{titlepage}
+\author{Соловьянов Михаил }
+\title{Лекции}
+\date{\today}
+\end{titlepage}
+
+
+
+\begin{document} % начало документа
+
+\Rus
+
+\tableofcontents
+
+
+
+\include{1}
+\include{2}
+\include{3}
+\include{4}
+\include{5}
+\include{6}
+\include{7}
+\include{8}
+\include{9}
+\include{10}
+\include{11}
+\include{12}
+\include{13}
+\include{14}
+\include{15}
+\include{16}
+
+\end{document}
